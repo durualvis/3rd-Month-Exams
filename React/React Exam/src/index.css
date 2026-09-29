@@ -1,0 +1,21 @@
+.counter {
+  border: 1px solid;
+  width: 130px;
+  height: 150px;
+}
+.counter > button {
+  width: 50px;
+}
+
+.toggle {
+  border: 1px solid;
+  width: 130px;
+  margin-top: 60px;
+  height: 150px;
+}
+.colchange {
+  border: 1px solid;
+  width: 130px;
+  margin-top: 60px;
+  height: 150px;
+}

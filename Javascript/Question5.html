@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="para">Paragraph</button>
+    <script>
+        const create = document.querySelector("#para")
+        create.addEventListener( "click", () => {
+            const Paragraph = document.createElement("p")
+            Paragraph.textContent = "This is a new Paragragh"
+            document.body.append(Paragraph)
+        })
+        // const Paragraph = document.createElement("p")
+
+    </script>
+</body>
+</html>
